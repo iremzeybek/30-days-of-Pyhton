@@ -1,2 +1,10 @@
 # 30-days-of-Pyhton
-My solutions, notes, and mini projects from the 30 Days of Python challenge, documenting my journey from Python fundamentals to advanced concepts.
+# Day 1
+
+## Topics
+- print()
+- Variables
+- Strings
+
+### What I learned
+Today I learned how to print text and create variables in Python.
