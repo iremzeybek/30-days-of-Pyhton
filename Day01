@@ -1,0 +1,33 @@
+print(4 + 5)
+print(5 - 4)
+print(5 * 4)
+print(5 / 4)
+print(5 // 4)
+print(5 % 4)
+print(5 ** 4)
+
+
+print("İrem")
+print("Zeybek")
+print("İrem" +  "Zeybek")
+print("İrem" +  " " + "Zeybek")
+print("Türkiye")
+print("İREM" * 5)
+
+print(type(4))
+print(type(2.8))
+print(type(3 + 4j))
+print(type("engineering"))
+print(type([1, 2,3]))
+print(type({"name":"İrem", "age": 20}))
+print(type((1, 2, 3)))
+
+
+s ={
+   'First_Name' : 'İrem' ,
+   'Last_Name' : 'Zeybek' ,
+   'Country' : 'Türkiye'
+}
+
+print(s)
+
