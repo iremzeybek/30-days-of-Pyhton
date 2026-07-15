@@ -1,0 +1,47 @@
+
+#Lists
+
+my_cart = [12.99, 382, 17, 167]
+print(my_cart)
+print(sum(my_cart))
+
+my_cart.append(15.50)
+print(my_cart)
+
+print(len(my_cart))
+
+print(my_cart[2])
+
+print(my_cart[2] * 3)
+
+my_string = "İrem Zeybek"
+print(len(my_string))
+print(my_string[0])
+
+
+print(my_cart)
+my_items = ["python", "java", "c++", "javascript", "html"]
+print(my_items)
+
+print(my_cart[1])
+print(my_items[1])
+
+my_products = [my_cart, my_items]
+print(my_products)
+
+
+#Dictionaries
+
+my_list = [1, 2, 3, 4, 5]
+my_data = {"name": "İrem", "surname": "Zeybek", "age": 20}
+print(my_data)
+print(my_data["name"])
+print(my_data.keys())
+print(my_data.values())
+print(list(my_data.keys())[0])
+my_data["occupation"] = "computer engineering student"
+print(my_data)
+
+
+      
+
