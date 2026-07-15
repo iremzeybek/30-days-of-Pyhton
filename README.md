@@ -33,6 +33,44 @@ In this exercise, I:
 * Variables
 * Dictionaries
 
+# Day 2 - Lists and Dictionaries
+
+## Overview
+
+This folder contains my solution for **Day 2** of the **30 Days of Python** challenge. The exercises focus on working with Python's two essential data structures: **lists** and **dictionaries**.
+
+## Topics Covered
+
+* Creating and modifying lists
+* Accessing list elements by index
+* Built-in functions (`sum()`, `len()`)
+* String indexing
+* Nested lists
+* Creating and updating dictionaries
+* Accessing dictionary keys and values
+
+## What I Practiced
+
+In this exercise, I:
+
+* Created lists to store different types of data.
+* Performed basic list operations such as appending items and calculating the sum of numeric values.
+* Accessed elements using indexing.
+* Worked with strings and character indexing.
+* Combined multiple lists into a nested list.
+* Created a dictionary to store personal information.
+* Retrieved dictionary keys and values and added a new key-value pair.
+
+## Skills Learned
+
+* Lists
+* Dictionaries
+* Indexing
+* Built-in functions
+* Nested data structures
+* Data manipulation
+
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
