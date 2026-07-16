@@ -71,6 +71,41 @@ In this exercise, I:
 * Data manipulation
 
 
+# Day 3 - Iterations and Loops
+
+## Overview
+
+This folder contains my solution for **Day 3** of the **30 Days of Python** challenge. The exercises focus on using loops to iterate through different data types and applying conditional logic to work with collections.
+
+## Topics Covered
+
+* `for` loops
+* `range()`
+* Iterating through strings
+* Iterating through lists
+* Working with dictionaries inside lists
+* Conditional statements (`if`)
+* Nested loops
+
+## What I Practiced
+
+In this exercise, I:
+
+* Iterated through lists, strings, and ranges using `for` loops.
+* Accessed dictionary values while looping through a list of dictionaries.
+* Used conditional statements to search for specific data.
+* Applied nested loops to compare values and find matching records.
+
+## Skills Learned
+
+* Loops
+* Iteration
+* Conditional logic
+* Nested loops
+* Lists and dictionaries
+* Data searching
+
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
