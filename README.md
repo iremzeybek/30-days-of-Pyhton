@@ -106,6 +106,41 @@ In this exercise, I:
 * Data searching
 
 
+# Day 4 - Conditionals and Control Flow
+
+## Overview
+
+This folder contains my solution for **Day 4** of the **30 Days of Python** challenge. The exercises focus on controlling program execution using conditional statements and loops.
+
+## Topics Covered
+
+* `if`, `elif`, and `else` statements
+* Boolean expressions
+* Membership operators (`in`)
+* `for` and `while` loops
+* `break` and `continue`
+* Basic list processing
+
+## What I Practiced
+
+In this exercise, I:
+
+* Evaluated conditions using comparison and boolean operators.
+* Used `if`, `elif`, and `else` to control program flow.
+* Iterated through lists and applied conditional logic.
+* Categorized numbers as even, odd, and multiples of 3.
+* Practiced `while` loops along with `break` and `continue` statements.
+
+## Skills Learned
+
+* Conditional statements
+* Boolean logic
+* Control flow
+* `for` and `while` loops
+* `break` and `continue`
+* List manipulation
+
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
