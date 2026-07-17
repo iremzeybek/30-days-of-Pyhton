@@ -1,0 +1,93 @@
+# Conditionals & Control Flow
+
+if True:
+    print("Hi there!")
+
+if False:
+    print("nothing")
+
+if not False:
+    print("what's up?")
+
+if 5 > 3:
+    print("5 is greater than 3")
+
+print(str(True).lower() == "true")
+print(str(True).title() == "True")
+print(str("true"))
+print(bool(str("true").title()))
+
+abc = [1, 2, 3, 4, 5]
+if 3 in abc:
+    print("3 is in the list")
+
+abc = [1, 2, 3, 4, 5]
+abc_sq = []
+for num in abc:
+    new_num = num ** 2
+    abc_sq.append(new_num)
+print(abc_sq)
+
+is_even = []
+is_odd = []
+for num in abc_sq:
+    if num % 2 == 0:
+        print("this is even")
+        is_even.append(num)
+    else:
+        is_odd.append(num)
+print(is_even)
+print(is_odd)
+
+is_factor_of_3 = []
+for num in abc_sq:
+    if num % 3 == 0:
+        is_factor_of_3.append(num)
+    elif num % 2 == 0:
+        is_even.append(num)
+    else:
+        is_odd.append(num)
+print(is_factor_of_3)
+
+
+x = 10
+i = 0
+while i < x:
+    print(i)
+    i = i + 1
+
+x = 10
+i = 0
+z = 12
+while i < x:
+    z = z * 2
+    if z > 64827:
+        break
+    print(z, i)
+    i = i + 0.00001
+
+x = 10
+i = 0
+while i < x:
+    if i % 2 == 0:
+        print("even")
+    else:
+        i += 1
+        continue
+    i += 1
+
+
+x = 10
+i = 0
+while i < x:
+    i += 1
+    if i % 2 == 0:
+        continue
+    print(i)
+
+
+
+
+
+
+
