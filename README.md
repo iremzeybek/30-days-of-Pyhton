@@ -140,6 +140,42 @@ In this exercise, I:
 * `break` and `continue`
 * List manipulation
 
+# Day 5 - String Formatting and F-Strings
+
+## Overview
+
+This folder contains my solution for **Day 5** of the **30 Days of Python** challenge. The exercises focus on formatting strings, using f-strings, and creating readable output.
+
+## Topics Covered
+
+* String concatenation
+* F-strings
+* Iterating through strings and lists
+* Multi-line strings
+* The `format()` method
+* Formatting numerical values
+
+## What I Practiced
+
+In this exercise, I:
+
+* Created formatted strings using f-strings.
+* Combined strings through concatenation.
+* Generated dynamic messages by looping through a list.
+* Worked with multi-line string templates.
+* Used the `format()` method to insert values into strings.
+* Formatted floating-point numbers with a specified precision
+
+## Skills Learned
+
+* String formatting
+* F-strings
+* String concatenation
+* `format()` method
+* Loops
+* Output formatting
+
+
 
 ---
 
