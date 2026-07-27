@@ -175,6 +175,39 @@ In this exercise, I:
 * Loops
 * Output formatting
 
+# Day 6 - Functions and Python Modules
+
+## Overview
+
+This folder contains my solution for **Day 6** of the **30 Days of Python** challenge. The exercises focus on creating reusable functions, working with function parameters, and understanding flexible arguments in Python.
+
+## Topics Covered
+
+* Defining functions
+* Function parameters and default values
+* Returning values
+* Calling functions
+* String templates with `format()`
+* `*args` and `**kwargs`
+
+## What I Practiced
+
+In this exercise, I:
+
+* Created custom functions to organize code.
+* Used default parameter values to make functions more flexible.
+* Returned values from functions.
+* Generated personalized messages using string formatting.
+* Learned how `*args` and `**kwargs` allow functions to accept a variable number of arguments.
+
+## Skills Learned
+
+* Functions
+* Parameters
+* Default arguments
+* Return values
+* String formatting
+* `*args` and `**kwargs`
 
 
 ---
