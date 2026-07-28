@@ -209,6 +209,49 @@ In this exercise, I:
 * String formatting
 * `*args` and `**kwargs`
 
+# Day 7 - Modules and Functions Project
+
+## Overview
+
+This folder contains my solution for **Day 7** of the **30 Days of Python** challenge. The project is divided into two files and demonstrates how to organize Python code using custom modules and reusable functions.
+
+## Files
+
+* `grades.py` – Contains functions for calculating averages, determining letter grades, and generating student reports.
+* `main.py` – Collects user input and displays the final report.
+
+## Topics Covered
+
+* Python modules
+* Importing functions from another file
+* Function design
+* User input
+* Lists
+* Conditional statements
+* String formatting with f-strings
+
+## What I Practiced
+
+In this project, I:
+
+* Created reusable functions in a separate module.
+* Imported functions into another Python file.
+* Calculated a student's average score.
+* Assigned a letter grade based on the average.
+* Generated a formatted student report.
+* Collected user input using loops.
+
+## Skills Learned
+
+* Modular programming
+* Functions
+* Imports
+* User input handling
+* Lists and loops
+* Conditional logic
+* Formatted output
+
+
 
 ---
 
