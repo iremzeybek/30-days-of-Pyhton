@@ -252,6 +252,41 @@ In this project, I:
 * Formatted output
 
 
+# Day 8 - Email Automation with SMTP and IMAP
+
+## Overview
+
+This folder contains my solution for **Day 8** of the **30 Days of Python** challenge. The project demonstrates how to send emails and read inbox messages using Python's built-in email libraries.
+
+## Topics Covered
+
+* SMTP for sending emails
+* IMAP for reading inbox messages
+* Python modules (`smtplib`, `imaplib`, `email`)
+* Functions
+* User input
+* String formatting
+* Basic email parsing
+
+## What I Practiced
+
+In this project, I:
+
+* Sent emails through Gmail using SMTP.
+* Logged into an inbox using IMAP.
+* Retrieved recent emails from the inbox.
+* Extracted sender, subject, and message body information.
+* Organized the program into reusable functions.
+* Built a simple menu-driven application.
+
+## Skills Learned
+
+* Email automation
+* SMTP and IMAP protocols
+* Working with external services
+* Python standard library
+* Functions and program structure
+* User interaction
 
 ---
 
