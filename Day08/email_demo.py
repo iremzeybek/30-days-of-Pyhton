@@ -8,7 +8,7 @@ from email.header import decode_header
 # YOUR GMAIL INFORMATION
 # =========================
 EMAIL_ADDRESS = "irem.github@gmail.com"
-APP_PASSWORD = "gpnk yljf qumi jzvj"
+APP_PASSWORD = "your_app_password"
 
 # =========================
 # SEND EMAIL FUNCTION
