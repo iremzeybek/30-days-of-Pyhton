@@ -288,6 +288,45 @@ In this project, I:
 * Functions and program structure
 * User interaction
 
+# Day 9 - File Operations and Downloading Files
+
+## Overview
+
+This folder contains my solution for **Day 9** of the **30 Days of Python** challenge. The project is a menu-driven file management program that demonstrates creating, reading, updating, and downloading files using Python.
+
+## Topics Covered
+
+* File creation and writing
+* Reading text files
+* Appending data to files
+* Checking file existence with `os.path`
+* Downloading files with `requests`
+* Exception handling
+* Functions and menu-driven programs
+
+## What I Practiced
+
+In this project, I:
+
+* Created text files and saved user input.
+* Read and displayed file contents.
+* Appended new text to existing files.
+* Downloaded files from a URL and saved them locally.
+* Checked whether files exist before accessing them.
+* Handled download errors using `try` and `except`.
+* Organized the program into reusable functions.
+
+## Skills Learned
+
+* File handling
+* Reading and writing files
+* Appending data
+* Working with file paths
+* HTTP requests
+* Error handling
+* Program organization
+
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
