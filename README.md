@@ -327,6 +327,45 @@ In this project, I:
 * Program organization
 
 
+# Day 10 - Object-Oriented Programming: Library System
+
+## Overview
+
+This folder contains my solution for **Day 10** of the **30 Days of Python** challenge. The project is a simple library management system built with **Object-Oriented Programming (OOP)** concepts in Python.
+
+## Topics Covered
+
+* Classes and objects
+* Constructors (`__init__`)
+* Instance attributes
+* Methods
+* Object state management
+* Lists of objects
+* User input and menu-driven programs
+
+## What I Practiced
+
+In this project, I:
+
+* Created a `Book` class with attributes and methods.
+* Used a constructor to initialize object data.
+* Implemented methods to borrow and return books.
+* Updated object state when books were borrowed or returned.
+* Stored multiple book objects in a list.
+* Built a menu-driven program for interacting with the library system.
+
+
+## Skills Learned
+
+* Object-oriented programming
+* Classes and objects
+* Constructors
+* Instance methods
+* State management
+* Lists of objects
+* User interaction
+
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
