@@ -365,6 +365,45 @@ In this project, I:
 * Lists of objects
 * User interaction
 
+# Day 11 - Web Scraping Box Office Data
+
+## Overview
+
+This folder contains my solution for **Day 11** of the **30 Days of Python** challenge. The project demonstrates how to collect real movie box office data from a website using web scraping techniques in Python.
+
+## Topics Covered
+
+* HTTP requests with `requests`
+* HTML parsing with `BeautifulSoup`
+* Working with tables in HTML
+* Extracting and cleaning text data
+* Loops and conditional checks
+* Lists and dictionaries
+* Saving data to a text file
+
+## What I Practiced
+
+In this project, I:
+
+* Sent a request to a real website and checked the response status.
+* Parsed HTML content using **BeautifulSoup**.
+* Located a table containing worldwide weekend box office information.
+* Extracted movie rank, title, and weekend gross values.
+* Cleaned currency text and converted it into integers.
+* Stored the scraped data in a list of dictionaries.
+* Displayed the results in a formatted table.
+* Saved the final results to a text file for later use.
+
+
+## Skills Learned
+
+* Web scraping
+* HTTP requests
+* HTML parsing
+* Data extraction
+* Data cleaning
+* File handling
+* Working with real-world data
 
 ---
 
