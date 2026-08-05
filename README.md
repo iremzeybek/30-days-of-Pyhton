@@ -405,6 +405,46 @@ In this project, I:
 * File handling
 * Working with real-world data
 
+# Day 12 - GitHub REST API Project
+
+## Overview
+
+This folder contains my solution for **Day 12** of the **30 Days of Python** challenge. The project demonstrates how to work with the **GitHub REST API** to retrieve real user profile information and repository data.
+
+## Topics Covered
+
+* REST APIs
+* HTTP requests with `requests`
+* JSON data handling
+* Functions
+* Error handling
+* Sorting data
+* File handling
+* Working with dates and times
+
+## What I Practiced
+
+In this project, I:
+
+* Sent requests to the GitHub API.
+* Retrieved public profile information for a GitHub user.
+* Retrieved a user's public repositories.
+* Handled common API errors such as invalid users, rate limits, and connection issues.
+* Sorted repositories by star count.
+* Displayed profile and repository information in a readable format.
+* Generated and saved a text report containing the fetched data.
+
+## Skills Learned
+
+* REST API usage
+* HTTP requests
+* JSON parsing
+* Error handling
+* Data sorting
+* File generation
+* Python functions
+* Working with external services
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
