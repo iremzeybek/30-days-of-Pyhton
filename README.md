@@ -445,6 +445,64 @@ In this project, I:
 * Python functions
 * Working with external services
 
+# Day 13 - Flask and FastAPI Web App
+
+## Overview
+
+This folder contains my solution for **Day 13** of the **30 Days of Python** challenge. The project is a simple web application that combines **FastAPI** as the backend API and **Flask** as the frontend interface. Users can view notes and add new notes through a web page.
+
+## Topics Covered
+
+* FastAPI
+* Flask
+* REST API development
+* HTTP GET and POST requests
+* Pydantic models
+* HTML templates
+* Form handling
+* JSON data exchange
+* Multithreading
+* Running multiple servers in one Python application
+
+## What I Practiced
+
+In this project, I:
+
+* Built a backend API using FastAPI.
+* Created API endpoints to list and add notes.
+* Defined data models with Pydantic.
+* Built a frontend web interface using Flask.
+* Collected user input through HTML forms.
+* Sent requests from Flask to the FastAPI backend.
+* Displayed dynamic content in an HTML template.
+* Ran both the FastAPI server and Flask server together using threads.
+
+## How to Run
+
+Install the required libraries:
+
+```bash
+pip install fastapi uvicorn flask requests pydantic
+```
+
+After starting the program:
+
+* **FastAPI API:** http://127.0.0.1:8000
+* **Flask Web App:** http://127.0.0.1:5000
+
+Open the Flask URL in your browser to use the web application.
+
+## Skills Learned
+
+* Backend development with FastAPI
+* Frontend development with Flask
+* API design
+* Form processing
+* JSON communication
+* Threading
+* Web application structure
+* Working with multiple Python frameworks
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
