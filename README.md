@@ -503,6 +503,52 @@ Open the Flask URL in your browser to use the web application.
 * Web application structure
 * Working with multiple Python frameworks
 
+
+# Day 14 - Automated Video Processing with MoviePy
+
+## Overview
+
+This folder contains my solution for **Day 14** of the **30 Days of Python** challenge. The project demonstrates how to automate video editing tasks using **MoviePy** in Python.
+
+## Topics Covered
+
+* Video processing with MoviePy
+* Loading video and audio files
+* Trimming video clips
+* Resizing video
+* Adding text overlays
+* Creating watermarks
+* Working with audio tracks
+* Adjusting audio volume
+* Compositing multiple video layers
+* Fade-in and fade-out effects
+* Exporting processed video
+
+## What I Practiced
+
+In this project, I:
+
+* Loaded a video file and trimmed it to a selected duration.
+* Resized the video while preserving its aspect ratio.
+* Added a title overlay to the video.
+* Added a watermark displayed throughout the video.
+* Loaded background music and synchronized it with the video duration.
+* Adjusted the background music volume.
+* Combined video, text, and watermark into a single composition.
+* Applied fade-in and fade-out transition effects.
+* Exported the final processed video as an MP4 file.
+
+## Skills Learned
+
+* Video editing automation
+* Multimedia processing
+* Working with video clips
+* Working with audio clips
+* Text overlays
+* Video compositing
+* Visual effects
+* Exporting media files
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
