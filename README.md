@@ -549,6 +549,78 @@ In this project, I:
 * Visual effects
 * Exporting media files
 
+# Day 15 - Selenium Web Automation Project
+
+## Overview
+
+This folder contains my solution for **Day 15** of the **30 Days of Python** challenge. The project demonstrates how to automate browser interactions using **Selenium WebDriver**, including logging into a website, scraping data, saving results, taking screenshots, performing a search, and logging out automatically.
+
+## Topics Covered
+
+* Selenium WebDriver
+* Browser automation
+* Automated login
+* Explicit waits (`WebDriverWait`)
+* Locating elements with Selenium
+* Web scraping with Selenium
+* Keyboard automation
+* Taking screenshots
+* Saving data to CSV with pandas
+* Exception handling
+* Automated logout
+* Browser session management
+
+## What I Practiced
+
+In this project, I:
+
+* Configured and launched a Chrome browser automatically.
+* Logged into a demo website using Selenium.
+* Waited for page elements using explicit waits.
+* Extracted dashboard information such as page title, heading, URL, and messages.
+* Stored scraped data in a dictionary.
+* Saved the collected data to a CSV file using pandas.
+* Took screenshots of web pages.
+* Automated a search on Wikipedia using keyboard input.
+* Logged out from the website automatically.
+* Handled possible runtime errors and closed the browser safely.
+
+## How to Run
+
+Install the required libraries:
+
+```bash
+pip install selenium webdriver-manager pandas
+```
+
+Make sure **Google Chrome** is installed on your computer.
+
+
+The script will automatically:
+
+1. Open Chrome.
+2. Log into the demo website.
+3. Scrape dashboard data.
+4. Save the data to `dashboard_data.csv`.
+5. Take screenshots.
+6. Perform a Wikipedia search.
+7. Log out.
+8. Close the browser.
+
+
+## Skills Learned
+
+* Web automation
+* Selenium WebDriver
+* Browser control
+* Web scraping
+* Explicit waits
+* Keyboard interaction
+* Screenshot automation
+* CSV file handling
+* Exception handling
+* Automation workflows
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
