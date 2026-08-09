@@ -621,6 +621,91 @@ The script will automatically:
 * Exception handling
 * Automation workflows
 
+# Day 16 - Data Science Pipeline with FastAPI
+
+## Overview
+
+This folder contains my solution for **Day 16** of the **30 Days of Python** challenge. The project demonstrates a complete **data science pipeline**, including data loading, cleaning, analysis, machine learning model training, evaluation, model saving, and deployment with **FastAPI**.
+
+## Topics Covered
+
+* Pandas data analysis
+* Seaborn datasets
+* Data cleaning
+* Exploratory data analysis
+* Feature engineering
+* One-hot encoding
+* Train/test split
+* Linear regression
+* Model evaluation
+* Saving models with Joblib
+* FastAPI
+* REST API development
+* JSON request handling
+
+## What I Practiced
+
+In this project, I:
+
+* Loaded a real dataset using Seaborn.
+* Cleaned the dataset by removing missing values and duplicates.
+* Calculated summary statistics such as average bill and average tip.
+* Performed grouping analysis by day.
+* Converted categorical variables into numerical features.
+* Split the dataset into training and testing sets.
+* Trained a linear regression model.
+* Evaluated the model using **MAE** and **R² score**.
+* Saved the trained model and feature list to disk.
+* Built a FastAPI application to serve predictions.
+* Created API endpoints for dataset summary and tip prediction.
+
+## How to Run
+
+Install the required libraries:
+
+```bash
+pip install pandas seaborn scikit-learn fastapi uvicorn joblib pydantic
+```
+
+Run the application:
+
+
+The API will start at:
+
+* **API Home:** http://127.0.0.1:8000
+* **Interactive Documentation:** http://127.0.0.1:8000/docs
+
+## Example Prediction Request
+
+```json
+{
+  "total_bill": 25.5,
+  "size": 2,
+  "day": "Sun",
+  "time": "Dinner"
+}
+```
+
+Example response:
+
+```json
+{
+  "predicted_tip": 3.78
+}
+```
+
+## Skills Learned
+
+* Data analysis
+* Data cleaning
+* Feature engineering
+* Machine learning
+* Model evaluation
+* Model persistence
+* API development
+* FastAPI
+* End-to-end data science workflows
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
