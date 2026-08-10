@@ -706,6 +706,87 @@ Example response:
 * FastAPI
 * End-to-end data science workflows
 
+# Day 17 - Machine Learning Pipeline and FastAPI Deployment
+
+## Overview
+
+This folder contains my solution for **Day 17** of the **30 Days of Python** challenge. The project demonstrates a complete **machine learning workflow**, including synthetic dataset generation, data cleaning, preprocessing, model training, evaluation, model persistence, and deployment with **FastAPI**.
+
+## Topics Covered
+
+* NumPy
+* Pandas
+* Synthetic data generation
+* Missing value handling
+* Scikit-learn pipelines
+* Feature scaling
+* ColumnTransformer
+* Linear regression
+* Train/test split
+* Model evaluation
+* Saving and loading models with Joblib
+* FastAPI
+* API deployment
+
+## What I Practiced
+
+In this project, I:
+
+* Generated a synthetic house price dataset.
+* Introduced missing values to simulate real-world data.
+* Built a preprocessing pipeline using **SimpleImputer** and **StandardScaler**.
+* Combined preprocessing and regression into a single Scikit-learn **Pipeline**.
+* Split the dataset into training and testing sets.
+* Trained a linear regression model.
+* Evaluated the model using **Mean Absolute Error (MAE)** and **R² score**.
+* Saved the trained model to disk.
+* Loaded the model inside a FastAPI application.
+* Created an API endpoint that predicts house prices from user-provided features.
+
+## How to Run
+
+Install the required libraries:
+
+```bash
+pip install pandas numpy scikit-learn fastapi uvicorn joblib pydantic
+```
+
+The API will start at:
+
+* **API Home:** http://127.0.0.1:8000
+* **Interactive Documentation:** http://127.0.0.1:8000/docs
+
+## Example Prediction Request
+
+```json
+{
+  "size_m2": 120,
+  "bedrooms": 3,
+  "age": 5,
+  "distance_city_km": 8
+}
+```
+
+Example response:
+
+```json
+{
+  "predicted_price": 327845.12
+}
+```
+
+## Skills Learned
+
+* Data preprocessing
+* Handling missing values
+* Feature scaling
+* Machine learning pipelines
+* Model training and evaluation
+* Model persistence
+* API development with FastAPI
+* End-to-end machine learning deployment
+
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
