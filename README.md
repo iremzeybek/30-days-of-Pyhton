@@ -786,6 +786,51 @@ Example response:
 * API development with FastAPI
 * End-to-end machine learning deployment
 
+# Day 18 - Amazon Price Tracker and Monitoring
+
+## Overview
+
+This folder contains my solution for **Day 18** of the **30 Days of Python** challenge. The project demonstrates how to build an **Amazon price tracking system** that monitors a product page, stores price history, displays statistics, triggers alerts, and visualizes price changes over time.
+
+## Topics Covered
+
+* Web scraping with BeautifulSoup
+* HTTP requests with `requests`
+* HTML parsing
+* Data storage with pandas
+* CSV file handling
+* Date and time handling
+* Continuous monitoring with loops
+* Exception handling
+* Data visualization with Matplotlib
+* Basic automation
+
+## What I Practiced
+
+In this project, I:
+
+* Sent HTTP requests to an Amazon product page using custom headers.
+* Parsed product title and price information from HTML.
+* Cleaned price text and converted it into numeric values.
+* Saved price records to a CSV file.
+* Loaded historical price data for analysis.
+* Calculated minimum, maximum, and average prices.
+* Compared current and previous prices to detect changes.
+* Created a target price alert system.
+* Generated a price history chart using Matplotlib.
+* Built a continuous monitoring loop with automatic repeated checks.
+
+## Skills Learned
+
+* Web scraping
+* HTML parsing
+* Data cleaning
+* CSV data storage
+* Automation
+* Monitoring systems
+* Data analysis
+* Data visualization
+* Error handling
 
 ---
 
