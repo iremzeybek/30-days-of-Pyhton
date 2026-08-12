@@ -832,6 +832,51 @@ In this project, I:
 * Data visualization
 * Error handling
 
+# Day 19 - Spotify API Playlist Manager
+
+## Overview
+
+This folder contains my solution for **Day 19** of the **30 Days of Python** challenge. The project demonstrates how to work with the **Spotify Web API** using the **Spotipy** library to authenticate a user, read playlists, search for songs, create a playlist, and add tracks automatically.
+
+## Topics Covered
+
+* Spotify Web API
+* OAuth authentication
+* Spotipy library
+* API requests and responses
+* User profile data
+* Playlist management
+* Track search
+* CSV report generation
+* Loops and user interaction
+* Working with JSON data
+
+## What I Practiced
+
+In this project, I:
+
+* Authenticated with Spotify using OAuth.
+* Retrieved the current user's profile information.
+* Fetched all user playlists from the Spotify account.
+* Stored playlist information in a pandas DataFrame.
+* Exported playlist data to a CSV report.
+* Searched Spotify for tracks based on user input.
+* Displayed search results and selected tracks interactively.
+* Created a new private playlist automatically.
+* Added selected tracks to the playlist through the API.
+* Retrieved and displayed the contents of the created playlist.
+
+## Skills Learned
+
+* API authentication
+* OAuth workflows
+* Spotify API integration
+* Data retrieval
+* JSON processing
+* CSV report generation
+* Interactive command-line applications
+* Automation with web APIs
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
