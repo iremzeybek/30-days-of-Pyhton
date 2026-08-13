@@ -877,6 +877,51 @@ In this project, I:
 * Interactive command-line applications
 * Automation with web APIs
 
+
+# Day 20 - Google Maps Geocoding and Places API Project
+
+## Overview
+
+This folder contains my solution for **Day 20** of the **30 Days of Python** challenge. The project demonstrates how to use the **Google Maps Geocoding API** and **Google Places API** to convert an address into geographic coordinates, search for nearby places, calculate distances, and save the results to a CSV file.
+
+## Topics Covered
+
+* Google Maps Geocoding API
+* Google Places API
+* REST API requests with `requests`
+* JSON data processing
+* Geographic coordinates
+* Distance calculations
+* Haversine formula
+* Data analysis with pandas
+* CSV export
+* Date and time handling
+
+## What I Practiced
+
+In this project, I:
+
+* Converted a user-provided address into latitude and longitude coordinates.
+* Sent requests to the Google Places API to search for nearby locations.
+* Processed JSON responses from the API.
+* Calculated real-world distances using the Haversine formula.
+* Organized place information into a pandas DataFrame.
+* Sorted places by distance and rating.
+* Exported the search results to a timestamped CSV file.
+* Built a simple interactive command-line application.
+
+
+## Skills Learned
+
+* Working with external APIs
+* Geocoding addresses
+* Nearby place search
+* Geographic calculations
+* JSON parsing
+* Data analysis with pandas
+* CSV export
+* Command-line application development
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
