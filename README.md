@@ -922,6 +922,64 @@ In this project, I:
 * CSV export
 * Command-line application development
 
+# Day 21 - Twitter API with Tweepy
+
+## Overview
+
+This folder contains my solution for **Day 21** of the **30 Days of Python** challenge. The project demonstrates how to use the **Twitter (X) API** with the **Tweepy** library to search for recent tweets, collect tweet data, analyze engagement metrics, and save the results to a CSV file.
+
+## Topics Covered
+
+* Twitter API
+* Tweepy
+* API authentication
+* Recent tweet search
+* JSON response handling
+* Data analysis with pandas
+* CSV export
+* Sorting and filtering data
+* Exception handling
+* Command-line reporting
+
+## What I Practiced
+
+In this project, I:
+
+* Authenticated with the Twitter API using a Bearer Token.
+* Searched for recent English-language tweets about Python.
+* Retrieved tweet metadata such as likes, retweets, replies, and creation time.
+* Stored tweet information in a pandas DataFrame.
+* Exported tweet data to a CSV file.
+* Calculated average likes and retweets.
+* Identified the most liked and most retweeted tweets.
+* Displayed the top tweets by engagement.
+* Handled API errors such as rate limits and authentication failures.
+
+## How to Run
+
+Install the required libraries:
+
+```bash
+pip install tweepy pandas
+```
+
+Replace the token in the script:
+
+```python
+BEARER_TOKEN = "YOUR_BEARER_TOKEN_HERE"
+```
+
+## Skills Learned
+
+* API authentication
+* Twitter API integration
+* Data collection
+* JSON processing
+* Data analysis with pandas
+* CSV export
+* Engagement analysis
+* Error handling
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
