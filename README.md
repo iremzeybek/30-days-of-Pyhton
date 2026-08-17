@@ -980,6 +980,38 @@ BEARER_TOKEN = "YOUR_BEARER_TOKEN_HERE"
 * Engagement analysis
 * Error handling
 
+# Day 22 – Web Scraping Stack Overflow
+
+## Overview
+
+This folder contains my solution for **Day 22** of the **30 Days of Python** challenge. The project demonstrates how to use Requests and BeautifulSoup to scrape Python-related questions from **Stack Overflow**, collect question data such as votes, answers, views, and tags, analyze the results with Pandas, and save the data and analysis to CSV and text files.
+
+## Topics Covered
+
+- Web Scraping
+- Requests
+- BeautifulSoup
+- HTML Parsing
+- CSS Selectors
+- Pandas
+- Data Analysis
+- CSV Files
+- Report Generation
+- Exception Handling
+
+## What I Practiced
+
+- Scraped Python questions from Stack Overflow.
+- Extracted titles, URLs, votes, answers, views, tags, and activity dates.
+- Scraped multiple pages with a delay between requests.
+- Converted view counts such as `1.5k` into numbers.
+- Removed duplicate questions.
+- Analyzed the most voted and most answered questions.
+- Found the most common tags.
+- Saved the results to a CSV file.
+- Generated a text report containing the collected statistics and top questions.
+
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
