@@ -1011,6 +1011,55 @@ This folder contains my solution for **Day 22** of the **30 Days of Python** cha
 - Saved the results to a CSV file.
 - Generated a text report containing the collected statistics and top questions.
 
+#  Day 23 – Creating a Command Line Tool
+## Overview
+
+This folder contains my solution for **Day 23** of the **30 Days of Pytho**n challenge. The project demonstrates how to build a **Command Line Interface (CLI)** application using Python's argparse module. I created a task management tool that allows users to add, list, complete, reopen, delete, search, and view tasks directly from the command line.
+
+## Topics Covered
+Command Line Interfaces (CLI)
+Python's argparse module
+Command-line arguments and subcommands
+JSON data storage
+Reading and writing JSON files
+Functions and modular program structure
+Lists and dictionaries
+File handling
+Error handling with try and except
+Date and time with datetime
+Filtering and searching data
+Data validation
+Basic statistics and calculations
+
+## What I Practiced
+Creating a CLI application with multiple commands
+Using argparse to handle user input from the terminal
+Creating and managing tasks with unique IDs
+Saving tasks permanently in a tasks.json file
+Loading existing tasks from JSON
+Adding task descriptions, priorities, and due dates
+Filtering tasks by status and priority
+Marking tasks as completed and reopening them
+Searching tasks by title or description
+Deleting tasks
+Displaying detailed information about individual tasks
+Calculating task statistics and completion rates
+Handling missing or invalid JSON files
+
+## Skills Learned
+Building practical command-line applications
+Working with command-line arguments
+Structuring larger Python programs
+Persisting data using JSON
+Managing structured data with lists and dictionaries
+Writing reusable functions
+Implementing CRUD-style operations
+Filtering and searching data
+Handling errors safely
+Working with dates and timestamps
+Designing a user-friendly CLI
+Organizing code into logical sections
+
 
 ---
 
