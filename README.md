@@ -1060,6 +1060,61 @@ Working with dates and timestamps
 Designing a user-friendly CLI
 Organizing code into logical sections
 
+## Day 24 – Sending SMS Texts with Python and Twilio
+
+### Overview
+
+This folder contains my solution for **Day 24** of the **30 Days of Python** challenge. The project demonstrates how to use **Python and the Twilio API** to send SMS messages, send bulk SMS messages, check message statuses, store SMS history in a JSON file, and track basic messaging statistics.
+
+### Topics Covered
+
+- Twilio API
+- Sending SMS messages with Python
+- Twilio authentication
+- Environment variables with `python-dotenv`
+- `.env` configuration
+- JSON file storage
+- Error handling
+- Input validation
+- Phone number validation
+- Message validation
+- Bulk SMS
+- Message status tracking
+- SMS history management
+- Basic data statistics
+- Functions and modular program structure
+
+### What I Practiced
+
+- Connecting Python to the Twilio API
+- Creating a Twilio client
+- Loading API credentials from environment variables
+- Sending individual SMS messages
+- Sending the same message to multiple recipients
+- Validating phone numbers and message content
+- Handling Twilio API errors
+- Retrieving the status of previously sent messages
+- Saving SMS information to a JSON file
+- Loading previously stored SMS history
+- Displaying sent message history
+- Calculating SMS statistics
+- Building an interactive terminal menu
+- Organizing a larger Python application into reusable functions
+
+### Skills Learned
+
+- Working with third-party APIs
+- Managing API credentials securely with environment variables
+- Using `.env` files instead of hardcoding sensitive credentials
+- Making API requests through an SDK
+- Handling API-specific exceptions
+- Validating and processing user input
+- Persisting application data with JSON
+- Building menu-driven Python applications
+- Working with timestamps and message metadata
+- Creating reusable and maintainable functions
+- Designing a more complete real-world Python application
+
 
 ---
 
