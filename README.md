@@ -1115,6 +1115,70 @@ This folder contains my solution for **Day 24** of the **30 Days of Python** cha
 - Creating reusable and maintainable functions
 - Designing a more complete real-world Python application
 
+## Day 25 – Python Web App Without a Framework
+
+### Overview
+
+This folder contains my solution for **Day 25** of the **30 Days of Python** challenge. The project demonstrates how to build a functional **web application using Python's standard library without a web framework**. The application is a task manager that uses Python's built-in HTTP server, SQLite database, HTML, and a simple JSON API to create, view, update, and delete tasks.
+
+### Topics Covered
+
+- Python Web Applications
+- `http.server`
+- `socketserver`
+- HTTP GET and POST requests
+- URL parsing with `urllib.parse`
+- HTML generation
+- HTML escaping with `html`
+- SQLite databases with `sqlite3`
+- SQL queries
+- JSON APIs
+- JSON serialization
+- Form data processing
+- HTTP status codes
+- HTTP redirects
+- CRUD operations
+- Threaded HTTP server
+- Date and time with `datetime`
+- Python standard library
+
+### What I Practiced
+
+- Building a web server without Flask, FastAPI, or another framework
+- Creating HTTP request handlers with `BaseHTTPRequestHandler`
+- Handling GET requests
+- Handling POST requests
+- Creating HTML pages dynamically with Python
+- Processing HTML form submissions
+- Creating and connecting to a SQLite database
+- Creating database tables with SQL
+- Adding tasks to the database
+- Retrieving tasks from the database
+- Updating task completion status
+- Deleting tasks
+- Creating JSON API endpoints
+- Returning individual tasks through an API
+- Parsing URLs and form data
+- Handling invalid routes and task IDs
+- Escaping HTML content safely
+- Running a threaded local web server
+
+### Skills Learned
+
+- Understanding how web frameworks work behind the scenes
+- Working directly with HTTP requests and responses
+- Building web applications using Python's standard library
+- Connecting a Python application to a SQLite database
+- Designing and using REST-style API endpoints
+- Performing CRUD operations
+- Processing browser form submissions
+- Generating dynamic HTML
+- Working with JSON data
+- Handling HTTP status codes and redirects
+- Structuring a larger Python web application
+- Combining backend logic, database operations, and frontend HTML
+- Understanding the fundamentals of web servers and web frameworks
+
 
 ---
 
