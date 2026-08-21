@@ -1179,6 +1179,190 @@ This folder contains my solution for **Day 25** of the **30 Days of Python** cha
 - Combining backend logic, database operations, and frontend HTML
 - Understanding the fundamentals of web servers and web frameworks
 
+# Day 26 - Python to Databases via SQL
+
+## Overview
+
+This folder contains my solution for **Day 26** of the **30 Days of Python** challenge. The project demonstrates how to use **Python with SQLite and SQL** to build a database-driven company management system. The application manages employees, departments, projects, salaries, and employee-project relationships while providing search, update, delete, and statistical functionality.
+
+## Topics Covered
+
+- SQLite databases
+- SQL queries in Python
+- `sqlite3` module
+- Database connections
+- Creating tables with SQL
+- Primary keys
+- Foreign keys
+- Database relationships
+- One-to-many relationships
+- Many-to-many relationships
+- `JOIN` queries
+- `LEFT JOIN`
+- `GROUP BY`
+- Aggregate functions
+- `COUNT()`
+- `AVG()`
+- `MIN()`
+- `MAX()`
+- `SUM()`
+- SQL constraints
+- Transactions
+- `COMMIT` and `ROLLBACK`
+- Parameterized SQL queries
+- CRUD operations
+- Database statistics
+
+## What I Practiced
+
+During Day 26, I practiced building a complete **company database management system** using Python and SQLite.
+
+I created multiple related database tables for:
+
+- Departments
+- Employees
+- Projects
+- Employee-project assignments
+
+I practiced creating database tables with SQL and connecting them together using **primary keys and foreign keys**.
+
+I also implemented functionality for:
+
+- Adding employees
+- Listing employees
+- Searching employees
+- Updating employee salaries
+- Deleting employees
+- Listing departments
+- Assigning employees to projects
+- Displaying employee projects
+- Calculating salary statistics
+- Calculating department statistics
+
+The project also includes sample departments and projects that are automatically inserted into the database when the application starts.
+
+## Skills Learned
+
+- Working with SQLite databases using Python
+- Writing SQL queries inside Python programs
+- Designing relational database structures
+- Using primary and foreign keys
+- Creating relationships between tables
+- Performing CRUD operations
+- Using SQL `JOIN` statements
+- Filtering database results with `WHERE`
+- Grouping data with `GROUP BY`
+- Performing calculations with SQL aggregate functions
+- Using parameterized queries to safely insert user input
+- Handling database errors with exceptions
+- Managing database transactions
+- Building a menu-driven database application
+- Combining Python logic with SQL data processing
+
+## Technologies Used
+
+- Python
+- SQLite
+- SQL
+- `sqlite3`
+- `datetime`
+
+## Database Structure
+
+The application uses four main tables:
+
+### Departments
+
+Stores company departments.
+
+- `id`
+- `name`
+
+### Employees
+
+Stores employee information.
+
+- `id`
+- `name`
+- `email`
+- `salary`
+- `department_id`
+- `hired_at`
+
+### Projects
+
+Stores company projects.
+
+- `id`
+- `name`
+- `budget`
+- `start_date`
+
+### Employee Projects
+
+Connects employees with projects.
+
+- `employee_id`
+- `project_id`
+- `role`
+
+This table demonstrates a **many-to-many relationship**, because an employee can work on multiple projects and a project can have multiple employees.
+
+## Features
+
+### Employee Management
+
+The application allows users to:
+
+- Add employees
+- View employees
+- Search employees
+- Update salaries
+- Delete employees
+
+### Project Management
+
+Users can:
+
+- Assign employees to projects
+- View project assignments
+- See employee roles
+- View project budgets
+
+### Statistics
+
+The application calculates:
+
+- Total number of employees
+- Average salary
+- Lowest salary
+- Highest salary
+- Total salary expenses
+- Number of employees per department
+- Average salary per department
+- Department payroll
+
+## Example Menu
+
+```text
+============================================================
+              PYTHON + SQL DATABASE MANAGER
+============================================================
+
+1. Add Employee
+2. List Employees
+3. Search Employees
+4. Update Employee Salary
+5. Delete Employee
+6. List Departments
+7. Assign Employee To Project
+8. Show Employee Projects
+9. Salary Statistics
+10. Department Statistics
+0. Exit
+
+============================================================
+
 
 ---
 
