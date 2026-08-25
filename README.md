@@ -1364,6 +1364,71 @@ The application calculates:
 ============================================================
 
 
+# Day 27 - Async Web Scraping
+
+## Overview
+
+This folder contains my solution for **Day 27** of the **30 Days of Python** challenge. The project demonstrates how to build an **asynchronous web scraper** using Python's `asyncio` and `aiohttp` libraries to scrape multiple pages concurrently, extract book information with **BeautifulSoup**, organize the data using **dataclasses**, and save the results as JSON and CSV files.
+
+## Topics Covered
+
+- Asynchronous programming
+- `asyncio`
+- `aiohttp`
+- Concurrent HTTP requests
+- `async` / `await`
+- `asyncio.create_task()`
+- `asyncio.gather()`
+- Semaphores
+- HTTP sessions
+- Request timeouts
+- Error handling
+- Web scraping
+- BeautifulSoup
+- CSS selectors
+- Dataclasses
+- JSON files
+- CSV files
+- Data processing
+- Performance measurement
+
+## What I Practiced
+
+During Day 27, I practiced creating a scraper that can request multiple web pages **concurrently instead of processing them one at a time**.
+
+The scraper collects information about books from multiple pages, including:
+
+- Book title
+- Price
+- Rating
+- Availability
+- Page number
+
+I used a `Book` dataclass to organize the scraped information and created an `AsyncScraper` class to manage asynchronous HTTP requests.
+
+I also practiced limiting the number of simultaneous requests using an `asyncio.Semaphore`, handling HTTP errors and timeouts, and creating multiple asynchronous scraping tasks with `asyncio.create_task()` and `asyncio.gather()`.
+
+After scraping the pages, I saved the collected data into both **JSON and CSV files** and displayed statistics about the scraping results.
+
+## Skills Learned
+
+- Building asynchronous Python programs
+- Using `async` and `await`
+- Making asynchronous HTTP requests
+- Running multiple tasks concurrently
+- Controlling concurrency with semaphores
+- Managing `aiohttp` sessions
+- Handling request timeouts and HTTP errors
+- Scraping structured data with BeautifulSoup
+- Creating reusable data models with dataclasses
+- Converting dataclass objects into dictionaries
+- Writing data to JSON and CSV
+- Measuring program execution time
+- Processing and analyzing scraped data
+- Structuring larger Python projects into separate functions and components
+
+
+
 ---
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
