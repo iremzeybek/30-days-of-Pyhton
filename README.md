@@ -1428,6 +1428,145 @@ After scraping the pages, I saved the collected data into both **JSON and CSV fi
 - Structuring larger Python projects into separate functions and components
 
 
+# Day 28 - Python Executable with PyInstaller
+
+## Overview
+
+This folder contains my solution for **Day 28** of the **30 Days of Python** challenge. The project demonstrates how to build a Python desktop application with **Tkinter** and package it as a standalone executable using **PyInstaller**.
+
+The application is a desktop utility that provides system information, file inspection, SHA-256 file hashing, and text file analysis through a graphical user interface.
+
+## Topics Covered
+
+- Tkinter GUI development
+- PyInstaller
+- Creating standalone Python executables
+- Object-Oriented Programming
+- System information with `platform`
+- File handling with `os`
+- File hashing with `hashlib`
+- SHA-256 hashing
+- Text file analysis
+- File metadata
+- Exception handling
+- GUI dialogs
+- Tkinter `Treeview`
+- Tkinter `Notebook`
+- Exporting data to text files
+- Application entry points
+
+## What I Practiced
+
+### 1. Building a Desktop GUI
+
+I created a graphical desktop application using Python's built-in `tkinter` library.
+
+The application contains three main tabs:
+
+- **System Information**
+- **File Utility**
+- **About**
+
+### 2. Collecting System Information
+
+The application collects information about the computer using the `platform` and `os` modules.
+
+It displays:
+
+- Operating System
+- OS Version
+- Architecture
+- Processor
+- Computer Name
+- Python Version
+- Current User
+
+### 3. File Information
+
+The File Utility section allows the user to select a file and retrieve information such as:
+
+- File Name
+- Full Path
+- File Size
+- Last Modified Date
+
+### 4. SHA-256 File Hashing
+
+I implemented file hashing using Python's `hashlib` module.
+
+The file is processed in chunks instead of loading the entire file into memory, making the hashing function more suitable for larger files.
+
+### 5. Text File Analysis
+
+The application can analyze UTF-8 text files and calculate:
+
+- Number of lines
+- Number of words
+- Number of characters
+
+### 6. Exporting System Information
+
+The system information displayed in the application can be exported to a `.txt` file using a file-save dialog.
+
+### 7. Error Handling
+
+The project includes exception handling for situations such as:
+
+- File access errors
+- Permission errors
+- Invalid text encoding
+- Failed file operations
+- No file being selected
+
+### 8. Preparing a Python Application for an Executable
+
+The main goal of this project is understanding how a Python application can be converted into a standalone executable using **PyInstaller**.
+
+A packaged application can be run on a compatible computer without requiring the user to manually run the Python source file.
+
+## Skills Learned
+
+- Building desktop applications with Tkinter
+- Working with `ttk` widgets
+- Creating multi-tab interfaces
+- Using classes to structure GUI applications
+- Working with files and file metadata
+- Calculating cryptographic hashes
+- Processing files in chunks
+- Reading and analyzing text files
+- Using system information modules
+- Creating file dialogs
+- Displaying message boxes
+- Handling runtime errors
+- Creating standalone executables with PyInstaller
+- Structuring a Python application for distribution
+
+## Technologies Used
+
+- Python
+- Tkinter
+- ttk
+- hashlib
+- platform
+- os
+- datetime
+- PyInstaller
+
+## Features
+
+- System information viewer
+- File selection
+- File metadata display
+- SHA-256 file hashing
+- Text file analysis
+- System information export
+- Refresh system information
+- Clear file results
+- Error and warning dialogs
+- Desktop graphical interface
+- PyInstaller executable packaging
+
+
 
 ---
 
