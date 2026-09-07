@@ -1566,6 +1566,84 @@ A packaged application can be run on a compatible computer without requiring the
 - Desktop graphical interface
 - PyInstaller executable packaging
 
+# Day 29 - Python Regular Expressions
+
+## Overview
+
+This folder contains my solution for **Day 29** of the **30 Days of Python** challenge. The project demonstrates how to use **Python Regular Expressions (Regex)** with the built-in `re` module to search, extract, validate, clean, transform, and analyze text and structured data.
+
+The project is an interactive **Regex Text & Data Analyzer** that includes more than 20 different operations, ranging from email and phone number extraction to password validation, text cleaning, regex demonstrations, and custom pattern searching.
+
+## Topics Covered
+
+- Python Regular Expressions
+- The `re` module
+- Regex patterns
+- `re.search()`
+- `re.match()`
+- `re.findall()`
+- `re.finditer()`
+- `re.fullmatch()`
+- `re.sub()`
+- `re.split()`
+- Character classes
+- Regex quantifiers
+- Capturing groups
+- Named capturing groups
+- Email extraction and validation
+- Phone number extraction and validation
+- URL extraction
+- Date extraction
+- Hashtag extraction
+- Username extraction
+- Number extraction
+- Credit card masking
+- Email masking
+- Text cleaning
+- Word frequency analysis
+- Password validation
+- Custom regex searches
+- Exception handling for invalid regex patterns
+- `collections.Counter`
+
+## What I Practiced
+
+### 1. Searching Text with Regular Expressions
+
+I practiced several of Python's most important regex functions:
+
+- `re.search()`
+- `re.match()`
+- `re.findall()`
+- `re.finditer()`
+- `re.fullmatch()`
+
+These functions were used to search for patterns, extract matches, inspect match positions, and validate complete strings.
+
+### 2. Extracting Structured Data
+
+I created regular expression patterns for extracting different types of information from text.
+
+The analyzer can extract:
+
+- Email addresses
+- Phone numbers
+- URLs
+- Dates
+- Hashtags
+- Usernames
+- Numbers
+
+### 3. Email Extraction
+
+The project uses a regular expression to find email addresses inside larger text.
+
+For example:
+
+```text
+irem.zeybek@example.com
+python.student@example.org
+
 
 
 ---
