@@ -1640,13 +1640,99 @@ The project uses a regular expression to find email addresses inside larger text
 
 For example:
 
-```text
 irem.zeybek@example.com
 python.student@example.org
 
 
+# Day 30 - Python Productivity & Analytics Hub
 
----
+## Overview
+
+This folder contains my solution for **Day 30** and the final project of the **30 Days of Python** challenge.
+
+The **Python Productivity & Analytics Hub** is a comprehensive Python capstone application that combines multiple concepts learned throughout the challenge into a single productivity management system.
+
+The application provides task management, SQLite database storage, JSON and CSV export, productivity analytics, data visualization, regular-expression validation, password hashing, asynchronous internet operations, GitHub API integration, logging, automated reports, and a FastAPI REST API.
+
+## Topics Covered
+
+- Object-Oriented Programming
+- Python dataclasses
+- SQLite databases
+- CRUD operations
+- JSON persistence
+- CSV export
+- Pandas
+- Matplotlib
+- Data analysis
+- Data visualization
+- Regular expressions
+- Input validation
+- Password hashing
+- FastAPI
+- REST APIs
+- Pydantic
+- Async programming
+- HTTP requests
+- GitHub API
+- Logging
+- CLI applications
+- Search and filtering
+- Statistics
+- Automated report generation
+- Error handling
+- Multithreading
+- File management
+- API documentation
+
+## What I Practiced
+
+### 1. Object-Oriented Programming
+
+The application is organized into multiple classes, each responsible for a specific part of the system.
+
+Main classes include:
+
+- `Task`
+- `SecurityManager`
+- `Validator`
+- `DatabaseManager`
+- `SampleData`
+- `AnalyticsEngine`
+- `ExportManager`
+- `AsyncInternetService`
+
+This structure helped me practice separation of responsibilities and building a larger Python application using OOP.
+
+### 2. Task Management
+
+The application provides a complete command-line task management system.
+
+Users can:
+
+- Add tasks
+- List tasks
+- Complete tasks
+- Delete tasks
+- Search tasks
+- Filter tasks by information such as category and priority
+- Track estimated hours
+- Store optional email addresses
+
+Each task contains information such as:
+
+
+ID
+Title
+Category
+Priority
+Status
+Hours
+Email
+Created Date
+
+
+
 
 **30 Days of Python** – Documenting my journey of learning Python one day at a time.
 
